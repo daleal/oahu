@@ -1,0 +1,7 @@
+version: '3'
+services:
+  oahu:
+    build:
+      context: .
+    volumes:
+      - .:/oahu
