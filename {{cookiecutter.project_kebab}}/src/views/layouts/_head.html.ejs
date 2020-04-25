@@ -1,0 +1,7 @@
+<meta charset="utf-8">
+
+<title>{{cookiecutter.project_title}}</title>
+
+<% if (env !== 'development') { %>
+  <link rel="stylesheet" href="<%= assetPath('app.css') %>">
+<% } %>
