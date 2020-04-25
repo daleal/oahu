@@ -1,4 +1,5 @@
 FROM node:12.16-alpine
+LABEL maintainer="dlleal@uc.cl"
 
 # Set up base directory
 WORKDIR /usr/src/app
