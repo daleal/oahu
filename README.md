@@ -1,6 +1,8 @@
 # Oahu
 
-Lightweight Rails 6 generator template built with `Docker` and `docker-compose` to **_plug and play_** with a final image size of just `~162MB`.
+Lightweight Koa generator template built with `Docker` and `docker-compose` to **_plug and play_** with a final image size of just `~162MB`.
+
+**Heavily** based on this [generator template](https://github.com/IIC2513/generator-template).
 
 ## But... **Why**?
 
