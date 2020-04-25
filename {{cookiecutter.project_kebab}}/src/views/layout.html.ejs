@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include layouts/_head.html.ejs %>
+  </head>
+
+  <body>
+    <% include layouts/_navbar.html.ejs %>
+
+    <div class="container main-container">
+      <% include layouts/_flash.html.ejs %>
+
+      <%- body %>
+    </div>
+
+    <script src="<%= assetPath('app.js') %>"></script>
+  </body>
+</html>
