@@ -13,7 +13,7 @@ If you are anything like me, you probably also hate having to download extra too
 To use the generator, **you don't need to download/clone anything**. Just run the following command:
 
 ```
-docker run -v $(pwd):/oahu daleal/oahu -n "Project Name"
+docker run -v $(pwd):/oahu/base daleal/oahu -n "Project Name"
 ```
 
 That will generate a folder named `project-name` with your generated project!
